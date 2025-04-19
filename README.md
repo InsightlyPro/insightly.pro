@@ -1,1 +1,1 @@
-# _.pro
+# Insightly.pro
