@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Insightly.pro - crypto project and token analysis service. Get expert opinion, PDF reports and personalized recommendations. And workers for your crypto project.">
+
+    <!-- Open Graph (for Telegram, Discord, Facebook) -->
+    <meta property="og:title" content="Insightly.pro — crypto project and token analysis service.">
+    <meta property="og:description" content="Analysis of crypto projects, PDF reports, recommendations.">
+    <meta property="og:image" content="https://example.com/img/share-preview.png">
+    <!--когда сайт будет на хостинге указать правильный адерс и картинку тут -->
+    <meta property="og:url" content="https://Insightly.pro">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Insightly.pro — crypto project and token analysis service">
+    <meta name="twitter:description" content="Analysis of crypto projects, PDF reports, recommendations.">
+    <meta name="twitter:image" content="https://example.com/img/share-preview.png">
+    <!--когда сайт будет на хостинге указать правильный адерс и картинку тут -->
+
+    <!-- Keywords  -->
+    <meta name="keywords"
+        content="crypto analysis, token report, testnet guide, mainnet, defi, airdrop analysis, crypto project research, defi alpha, insight">
+
+    <script type="application/ld+json">
+            {
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "Insightly.pro",
+              "url": "https://insightly.pro",
+              "description": "Crypto project and token analysis service. Get expert opinion, PDF reports and personalized recommendations."
+            }
+    </script>
+
+    <title>Insightly.pro - analyzing crypto projects, tokens, and airdrop activities.
+    </title>
+    <link rel="canonical" href="https://insightly.pro/">
+    <link rel="icon" href="img/cube-v-title.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/main.js" defer></script>
+    <style>
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+
+        .modal-content-iframe {
+            background-color: white;
+            border-radius: 12px;
+            width: 90%;
+            max-width: 800px;
+            height: 80vh;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            position: relative;
+            animation: fadeIn 0.3s ease-in-out;
+        }
+
+        .modal-content-iframe iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .close-btn-iframe {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #dc3545;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            font-size: 14px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: scale(0.95);
+            }
+
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+
+    <body class="main-page"
+      itemscope
+      itemtype="https://schema.org/WebPage">
+
+    <!-- Anchor to scroll to top of page -->
+    <div id="top"></div>
+
+    <!-- Modal with Google Form -->
+    <div class="modal-overlay" id="googleFormModal">
+        <div class="modal-content-iframe">
+            <button class="close-btn-iframe" onclick="closeGoogleFormModal()">Close</button>
+            <iframe
+                src="https://docs.google.com/forms/d/e/1FAIpQLSejCHX2eMswcR5ClY8wCdQrLMhZafQISke_k12fQtMhejtZ4w/viewform?embedded=true"></iframe>
+        </div>
+    </div>
+
+    <script>
+        function openGoogleFormModal() {
+            document.getElementById('googleFormModal').style.display = 'flex';
+        }
+
+        function closeGoogleFormModal() {
+            document.getElementById('googleFormModal').style.display = 'none';
+        }
+
+        // Переопределяем действия кнопок "Order Now"
+        window.addEventListener('DOMContentLoaded', () => {
+            const orderButtons = document.querySelectorAll('.order-btn');
+            orderButtons.forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    openGoogleFormModal();
+                });
+            });
+        });
+    </script>
+
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="#top">
+                    <img width="40" src="img/cube na main button.png" alt="Insightly.pro logo" loading="lazy">
+                </a>
+            </div>
+
+            <nav>
+                <a href="#top" class="nav-link">Main</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#plans" class="nav-link">Plans</a>
+                <a href="#report" class="nav-link">Request Report</a>
+                <a href="https://t.me/community_insightly" class="nav-link" target="_blank">Support</a>
+                <a href="https://x.com/Insightlypro" class="nav-link" target="_blank">Community</a>
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+        <section>
+            <div class="left-container">
+                <h1 class="main-header">The insights that transform your mindset</h1>
+                <div class="main-text">
+                    <p>Use our Alpha information analysis that will help you and maximize your time and rewards.
+                        Soon you will no longer need to pay for different subscriptions or spend your time analyzing,
+                        just order an analysis
+                        and save your time and money. As well as a lot of extra features for you, as services of
+                        workers, contributors, and ambassadors.</p>
+                </div>
+                <a href="#plans" class="main-button">Get Started</a>
+            </div>
+
+            <div class="right-container">
+                <img src="img/glass_cube.png" alt="glass_cube" class="main-img" loading="lazy">
+            </div>
+        </section>
+
+        <!-- Services -->
+
+        <div class="container">
+            <section id="services"></section>
+            <h1>Services</h1>
+            <h2>Our services are here to help you answer all your questions and help you to get more</h2>
+
+            <div class="service">
+                <div class="service-number">01</div>
+                <div class="service-text">
+                    <ul>
+                        <li>Should I join testnet or mainnet?&nbsp;</li>
+                        <li>Does this project have potential?</li>
+                        <li>I have no time, but I want to participate. Do you have workers?</li>
+                        <li>Where to get a guide for doing a testnet or mainnet?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                        <li>What activities are there besides onchain activities?</li>
+                        <li>I want to run a node, but how?</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service">
+                <div class="service-number">02</div>
+                <div class="service-text">
+                    <ul>
+                        <li>If I got tokens in an airdrop, should I hold, sell, or buy more?</li>
+                        <li>What's the best way to use received tokens — sell, stake, or something else?</li>
+                        <li>Is it worth buying a specific token from the market for trade, for investment?</li>
+                        <li>How can I become a contributor to this project and create my first PR, Issue?</li>
+                        <li>Is it better to buy and hold or sell now?</li>
+                        <li>Will there be a 2nd airdrop?</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="service">
+                <div class="service-number">03</div>
+                <div class="service-text">
+                    <ul>
+                        <li>Can you help with participating in the Ambassador Program?</li>
+                        <li>Should I do the activity to get 2 airdrop?</li>
+                        <li>Is it a promising project and will it have a token?</li>
+                        <li>Could this project be a financial pyramid or a scam?</li>
+                        <li>And many more...</li>
+                        <li>We’ll guide you to make the best decisions for your goals!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            const services = document.querySelectorAll('.service');
+
+            window.addEventListener('scroll', () => {
+                services.forEach(service => {
+                    const serviceTop = service.getBoundingClientRect().top;
+                    const windowHeight = window.innerHeight;
+
+                    if (serviceTop < windowHeight - 100) {
+                        service.classList.add('active');
+                    }
+                });
+            });
+        </script>
+
+        <div class="grid">
+            <div class="card">
+                <div class="title-line">
+                    <img src="gif/project.gif" alt="project" width="40" loading="lazy">
+                    <h2>Project analysis</h2>
+                </div>
+                <p>Team, technology, competition, uniqueness, media coverage, documentation, investors, funding rounds,
+                    partnerships, roadmap, community, safety audits, marketing strategy, and other key aspects of the
+                    project.</p>
+            </div>
+
+            <div class="card">
+                <div class="title-line">
+                    <img src="gif/token.gif" alt="project" width="40" loading="lazy">
+                    <h2>Token analysis</h2>
+                </div>
+                <p>Supply, potential growth, distribution model, key holders, market makers, chart unlocking, liquidity,
+                    staking opportunities, governance, tokenomics, technical activity and other aspects.</p>
+            </div>
+
+            <div class="card">
+                <div class="title-line">
+                    <img src="gif/project_token.gif" alt="project" width="40" loading="lazy">
+                    <h2>Project and Token analysis</h2>
+                </div>
+                <p>A comprehensive, in-depth analisys covering all key aspects of both the project and its token. Our
+                    methodology includes: team evaluation, technological review, competitor analysis, tokenomics
+                    assessment, liquidity & market dynamics, vesting & unlock schedules.</p>
+            </div>
+        </div>
+        </div>
+
+        <!-- Plans Sections -->
+
+        <div class="preprice">
+            <section id="plans"></section>
+            <section id="report"></section>
+            <h1 class="title">Choose the right plan for you</h1>
+            <p class="subtitle">Pick a plan that includes top features and fits all your needs and preferences</p>
+        </div>
+        <section class="pricing-container">
+            <div class="pricing-section">
+                <h2>Essential</h2>
+                <ul class="features">
+                    <li><span class="checkmark">✔</span> Analysis of 1 project</li>
+                    <li><span class="checkmark">✔</span> Analysis of 1 token</li>
+                    <li><span class="checkmark">✔</span> 24/5 support response time</li>
+                    <li><span class="checkmark">✔</span> Standard or Advanced analytics</li>
+                    <li><span class="checkmark">✔</span> Basic or Custom reports</li>
+                </ul>
+                <button class="order-btn" onclick="openForm()">Order Now</button>
+            </div>
+            <div class="pricing-section">
+                <h2>Worker</h2>
+                <ul class="features">
+                    <li><span class="checkmark">✔</span> Analysis project</li>
+                    <li><span class="checkmark">✔</span> Analysis of activities</li>
+                    <li><span class="checkmark">✔</span> Find the best way to do</li>
+                    <li><span class="checkmark">✔</span> Onchain activity execution</li>
+                    <li><span class="checkmark">✔</span> 24/5 support response time</li>
+                </ul>
+                <button class="order-btn" onclick="openForm()">Order Now</button>
+            </div>
+            <div class="pricing-section">
+                <h2>Contributor</h2>
+                <ul class="features">
+                    <li><span class="checkmark">✔</span> Analysis project</li>
+                    <li><span class="checkmark">✔</span> Analysis of activities</li>
+                    <li><span class="checkmark">✔</span> Find the best way to do</li>
+                    <li><span class="checkmark">✔</span> Сontent development</li>
+                    <li><span class="checkmark">✔</span> 24/5 support response time</li>
+                </ul>
+                <button class="order-btn" onclick="openForm()">Order Now</button>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+
+        <section class="faq-section">
+            <h1 class="faq-title">Frequently Asked Questions</h1>
+            <div class="faq-container">
+                <!-- FAQ Item -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        In what assets can I make a payment?
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>You can pay in $USDC, $USDT.</p>
+                    </div>
+                </div>
+                <!-- FAQ Item -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How long will the report be ready? In what format is the report provided?
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>On average it may take 24-48 hours, and may not exceed 1 week. Report is prepared in PDF format or in a format convenient for you.</p>
+                    </div>
+                </div>
+                <!-- FAQ Item -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What should I do if I am not satisfied with the received report?
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Share the details. The main principle - we do the research, you save time.</p>
+                    </div>
+                </div>
+                <!-- FAQ Item -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What networks can I pay in?
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>You can use all networks you know (such as Arbitrum, Optimism, Scroll, etc.) that support $USDC, $USDT.</p>
+                    </div>
+                </div>
+                <!-- FAQ Item -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Can I request additional information to a previously received report?
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, this is possible. Please contact our support manager for additional information and payment options.</p>
+                    </div>
+                </div>
+                <!-- FAQ Item -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        If I want to use reports for different projects or tokens, can I make a monthly payment?
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, feel free to ask support.</p>
+                    </div>
+                </div>
+                <!-- FAQ Item -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Can I request additional information that is not specified in the description?
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, feel free to ask support. Note: we don’t analyze smart contracts.</p>
+                    </div>
+                </div>
+                <!-- FAQ Item -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What are the terms of service of your workers or contributors?
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>It depends on many factors, including the analysis of the project itself. For more information, please contact support.</p>
+                    </div>
+                </div>
+                <!-- FAQ Item -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What should I do if I am not satisfied with the work of the workers or contributors?
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Share the details. The main principle - we do the work, you save time.</p>
+                    </div>
+                </div>
+                <!-- FAQ Item -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Do you want to share a proposal, a suggestion, or just want to leave feedback?
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Great! We'd be delighted, please write to our manager.</p>
+                    </div>
+                </div>
+                <!-- Another FAQ Item -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Still have questions?
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Contact our support manager via Telegram.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script>
+            document.querySelectorAll('.faq-question').forEach(question => {
+                question.addEventListener('click', () => {
+                    const faqItem = question.parentElement;
+                    faqItem.classList.toggle('open');
+                });
+            });
+        </script>
+
+        <!-- Support contact block after FAQ -->
+
+        <div class="support-container">
+            <p>Happy to answer any questions &nbsp;&nbsp;</p>
+            <div class="input-container">
+                <input type="text" placeholder="@telegram" readonly>
+                <a href="https://t.me/community_insightly" target="_blank" class="telegram-button">➜</a>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-container">
+
+            <div class="footer-copyright">
+                <p>&copy; 2025 insightly.pro <br> All rights reserved.</p>
+            </div>
+            <div class="footer-info-group">
+                <div class="footer-links">
+                    <h4>Documentation</h4>
+                    <p><a class="footer-link" href="terms.html" target="_blank">Terms & Service</a></p>
+                    <p><a class="footer-link" href="privacy.html" target="_blank">Privacy Policy</a></p>
+                    <p><a class="footer-link" href="disclaimer.html" target="_blank">Disclaimer</a></p>
+                </div>
+
+                <div class="footer-support">
+                    <section id="support"></section>
+                    <h4>Contact us</h4>
+                    <p><a href="https://t.me/community_insightly" target="_blank" class="telegram">Managers</a></p>
+                    <p><a href="#" class="no-style-link" onclick="openPartnershipForm()">Partnership & Advertising</a>
+                    </p>
+                </div>
+
+                <div class="footer-socials">
+                    <section id="community"></section>
+                    <a class="footer-social-item" href="https://t.me/insightlypro" target="_blank"><img
+                            src="img/telegram_logo.png" alt="" loading="lazy"></a>
+                    <a class="footer-social-item" href="https://x.com/Insightlypro" target="_blank"><img
+                            src="img/x_logo.png" alt="" loading="lazy"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Modal for Partnership & Advertising Form -->
+    <div class="modal-overlay" id="partnershipFormModal">
+        <div class="modal-content-iframe">
+            <button class="close-btn-iframe" onclick="closePartnershipForm()">Close</button>
+            <iframe
+                src="https://docs.google.com/forms/d/e/1FAIpQLSeJu9Gjg9GlF0qiNwyj9UCafRhSsYq10w1O6K5zTDx8eLCUwA/viewform?embedded=true"></iframe>
+        </div>
+    </div>
+
+    <script>
+        function openPartnershipForm() {
+            document.getElementById('partnershipFormModal').style.display = 'flex';
+        }
+        function closePartnershipForm() {
+            document.getElementById('partnershipFormModal').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
