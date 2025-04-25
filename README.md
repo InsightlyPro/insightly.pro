@@ -27,9 +27,9 @@ We help you make smarter crypto decisions — whether you're a trader, builder, 
 
 We help clients participate in ambassador programs, complete tasks, and perform onchain actions across various ecosystems.
 
-📩 Contact: Tell us about your project or token, fill out this [form](https://forms.gle/TP4BaBxGXnRzdK7G6) 
-📩 Contact: Partnership & Advertising, fill out this [form](https://forms.gle/6eUeKv4Dp4TtMAR99)   
-🌐 Site: [https://insightly.pro](https://insightly.pro)
+- 📩 Contact: Tell us about your project or token, fill out this [form](https://forms.gle/TP4BaBxGXnRzdK7G6) 
+- 📩 Contact: Partnership & Advertising, fill out this [form](https://forms.gle/6eUeKv4Dp4TtMAR99)   
+- 🌐 Site: [https://insightly.pro](https://insightly.pro)
 
 ---
 
