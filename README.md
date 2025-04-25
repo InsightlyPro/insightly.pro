@@ -33,7 +33,7 @@ We help clients participate in ambassador programs, complete tasks, and perform 
 
 ---
 
-Made with 💙 by Insightly 
+Made with ❤️ by Insightly 
 
 
 
