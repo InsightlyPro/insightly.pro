@@ -1,40 +1,42 @@
 # Insightly.pro 🔍
 
-🚀 Insightly is your go-to Web3 project and token analysis service.  
-We help you make smarter crypto decisions — whether you're a trader, builder, or investor.
+🚀 **Insightly.pro** is your all-in-one platform for smarter crypto insights.  
+We provide deep analysis, builder support, and premium alpha — in one place, without overpaying for multiple tools.
 
 ---
 
-## 🧠 What we do
+## 🧠 What We Offer
 
-- Project and Token deep-dive reports
-- Custom research (team, tokenomics, unlocks, liquidity, governance, roadmap)
-- Contributor, Worker & Ambassador services
-- Airdrop strategies and onchain activity management
-
----
-
-## 📊 Sample Questions We Answer
-
-- Should I join a testnet or mainnet?
-- Is it worth holding this token after an airdrop?
-- How do I become a contributor to X project?
-- What’s the best strategy to maximize rewards?
+- 🔎 In-depth project & token reports (team, tokenomics, unlocks, governance, etc.)
+- 🛠 Personalized builder services (testnet/mainnet tasks, node setup, content creation)
+- 🌱 Contributor, Worker & Ambassador support
+- 💡 Airdrop strategies & onchain activity optimization
+- 🧠 Private alpha access through our gated Discord community
 
 ---
 
-## 💼 Need help?
+## 📊 Questions We Help You Answer
 
-We help clients participate in ambassador programs, complete tasks, and perform onchain actions across various ecosystems.
-
-- 📩 Contact: Tell us about your project or token, fill out this [form](https://forms.gle/TP4BaBxGXnRzdK7G6) 
-- 📩 Contact: Partnership & Advertising, fill out this [form](https://forms.gle/6eUeKv4Dp4TtMAR99)   
-- 🌐 Site: [https://insightly.pro](https://insightly.pro)
+- Should I join a testnet or wait for mainnet?
+- How do I optimize my airdrop eligibility or retention?
+- Can I become a contributor or worker in a top project?
+- Which token is worth holding — and why?
+- How do I avoid wasting time on low-potential drops?
 
 ---
 
-Made with ❤️ by Insightly 
+## 💼 Let’s Work Together
 
+We support teams, DAOs, and individual users by offering:
 
+- Full-cycle contributor management
+- Strategy for ecosystem participation
+- Delegated onchain actions
 
+- 📩 **Request our services**: [Fill out this form](https://forms.gle/TP4BaBxGXnRzdK7G6)  
+- 📩 **Partnerships / Ads**: [Partnership form](https://forms.gle/6eUeKv4Dp4TtMAR99)  
+- 🌐 **Website**: [https://insightly.pro](https://insightly.pro)
 
+---
+
+Made with ❤️ by the Insightly.pro team
