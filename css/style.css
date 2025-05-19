@@ -920,7 +920,7 @@ button:hover {
     }
     /* Adjust image block */
     .right-container {
-       display: block;
+       display: none;
     }
     .main-img img {
         width: 100%;
